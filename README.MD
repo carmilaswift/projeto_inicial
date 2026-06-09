@@ -1,27 +1,14 @@
-# Projeto Inicial
+# TITULO
+t's me hi, it's my first README
 
-Repositório com exercícios do curso de Python. Contém scripts de aula e exemplos utilizados durante o curso.
+*italico*
 
-## Instalação
+**negrito**
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+1) elemento
 
-## Uso
+2) elemento 
 
-Executar um dos arquivos de aula, por exemplo:
+[link para o google] (https://www.google.com)
 
-```bash
-python aula1.py
-```
-
-## Contribuição
-
-Sinta-se à vontade para abrir issues e enviar pull requests.
-
-## Licença
-
-MIT
+![link para imagem] (![alt text](image.png))
