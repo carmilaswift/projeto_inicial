@@ -23,9 +23,9 @@ if len(nome) < 4:
     name = 'seu nome é curto'
 elif len(nome) >= 5 and len(nome) <= 6:
     name = 'seu nome é normal'
-elif len(nome) > 6:
+else:
     name = 'seu nome é muito grande'
-name =  'seu nome é '
+namme =  'seu nome é '
 
-your_name = f'{name} e tem {len(nome)} letras'
+your_name = f'{namme} e {name} e tem {len(nome)} letras'
 print(your_name)
