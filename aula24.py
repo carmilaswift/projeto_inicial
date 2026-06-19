@@ -1,17 +1,18 @@
 # funçao for and while
-# texto = 'python'
+texto = 'python'
 
-# novo_texto = ''
-# for letra in texto:
-#     novo_texto += f'.{letra}'
-# print(novo_texto + '.')
+novo_texto = ''
+for letra in texto:
+    novo_texto += f'.{letra}'
+print(novo_texto + '.')
+
 
 senha = '1234'  # 1. Definida como string para coincidir com o input
 senha_digitada = ''
 repeticoes = 0
 
 while senha != senha_digitada:
-    # Mostra o número atual de tentativas
+   
     senha_digitada = input(f'digite a senha ({repeticoes}ª tentativa): ')
     
     repeticoes += 1
